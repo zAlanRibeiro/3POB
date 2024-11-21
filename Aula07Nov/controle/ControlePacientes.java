@@ -81,7 +81,7 @@ public class ControlePacientes {
                 case 1:
                     System.out.print("Numero do Paciente: ");
                     int numero = scanner.nextInt();
-                    scanner.nextLine(); // Limpa o buffer do scanner
+                    scanner.nextLine();
                     System.out.print("Peso do Paciente: ");
                     double peso = scanner.nextDouble();
                     System.out.print("Altura do Paciente: ");
